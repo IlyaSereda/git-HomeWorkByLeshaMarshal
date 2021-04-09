@@ -8,7 +8,7 @@ public class homeworks {
         String admin2 = "Armenin";
         int grade = 10;
         grade = grade + 5;
-        float grade2 = grade / 2; // округляю до 7-ки, чтобы первую переменную grade не задавать как float
+        float grade2 = grade / 2f;
         System.out.println(admin);
         System.out.println("Grade пользователя " + admin + " = " + grade);
         System.out.println("Grade пользователя " + admin2 + " = " + grade2);
